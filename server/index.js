@@ -9,8 +9,9 @@ const productRouter = require('./routes/product');
 const userRouter = require('./routes/user');
 
 //Init
-const port = 3000
+
 const app = express();
+const port = 3000
 const DB = "mongodb+srv://Tanmay:Tanmay%402001@cluster0.3bnbusc.mongodb.net/?retryWrites=true&w=majority";
 
 //middleware
